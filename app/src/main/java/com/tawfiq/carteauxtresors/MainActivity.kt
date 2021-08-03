@@ -14,9 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val carte = Carte(3,4)
+        val carte = Carte(this,5,4)
         carte.insertTresor(2,2,3)
-        carte.insertMontagne(0,1)
+        carte.insertTresor(1,2,5)
+        carte.insertMontagne(0,2)
+        carte.departAventurier(2,1,"D","A-A-G-A")
 
         fileDepart(carte)
     }
