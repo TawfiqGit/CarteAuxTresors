@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CarteAuxTresors</string>
     <string name="text_nb_tresor">CarteAuxTresors</string>
+    <string name="text_impossible_montagne">Impossible d\'arriver au bout montagne detecté !</string>
+    <string name="edit_orientation">Orientation</string>
+    <string name="edit_sequence_mouvememt">Sequence Mouvememt</string>
 </resources>
